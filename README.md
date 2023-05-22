@@ -63,6 +63,12 @@ gcc client.c -lrt -lpthread -o client
 4. Серверу возвращается результат проверки
 5. Соединение с сервером закрывается
 
+### Демонстрация работы
+![server](https://github.com/makeitokay/OSI_HW_3/assets/34311075/c5d5c632-86bd-4288-98e0-0d038256fbba)
+
+![client](https://github.com/makeitokay/OSI_HW_3/assets/34311075/11ad6c38-7f05-442e-8f61-882c2c56ab4b)
+
+
 ## 6-7 баллов
 
 ```bash
@@ -89,3 +95,10 @@ gcc monitor.c -lrt -lpthread -o monitor
 5. После того как работа с клиентами окончена, сервер посылает монитору сигнал о завершении работы (сообщение "stop")
 
 В остальном алгоритм работы такой же, как в реализации на 4-5 баллов.
+
+### Демонстрация работы
+![server](https://github.com/makeitokay/OSI_HW_3/assets/34311075/ce29448e-7431-4db8-ad7e-801707ba5994)
+
+![monitor](https://github.com/makeitokay/OSI_HW_3/assets/34311075/45d3a473-ad64-4f10-8c2b-f0db17795b4a)
+
+![client](https://github.com/makeitokay/OSI_HW_3/assets/34311075/437a90dc-c0d4-4972-91b8-765bdda92122)
